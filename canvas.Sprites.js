@@ -58,6 +58,7 @@ define(function() {
             opts.__proto__ = options
             opts.ctx.drawImage(img, 0, pos*segHeight, width, opts.segHeightToDraw, opts.x, opts.y, width*opts.scale, segHeight*opts.scale);
         };
+        //advances to the next sprite
         this.advance = function(){
             pos = (pos+1)%numParts;
         }
