@@ -15,7 +15,7 @@ define(function() {
         var width = img.naturalWidth;
         var height = img.naturalHeight;
         var segHeight = img.naturalHeight/numParts;
-        options.__proto = {scale: 1, x: 0, y: 0, segHeightToDraw: segHeight};
+        options.__proto__ = {scale: 1, x: 0, y: 0, segHeightToDraw: segHeight};
         //public variables
         this.numParts = numParts;
         
